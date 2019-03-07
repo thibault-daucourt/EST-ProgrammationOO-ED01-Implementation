@@ -6,7 +6,7 @@ namespace ApplicationIndividu
     {
         static void Main(string[] args)
         {
-            Application.ChienEtChat();
+            Application.CercleEtCylindre();
         }
     }
 }

@@ -1,6 +1,8 @@
 ﻿
 using ApplicationIndividu.Business;
+using Exercices_Progressifs.Business.CercleEtCylindre;
 using Exercices_Progressifs.Business.ChientEtChat;
+using Exercices_Progressifs.Business;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -154,6 +156,13 @@ namespace ApplicationIndividu
 
             Console.WriteLine(médor.ToString());
             Console.WriteLine(minet.ToString());
+        }
+
+        public static void CercleEtCylindre()
+        {
+            Cylindre cylindre = new Cylindre(2.00, 5.00);
+
+            Console.WriteLine("Volume du cylindre(rayon = {0}, hauteur = {1}) est de {2})", cylindre.GetRayonBaseCirculaire(), cylindre.GetHauteur(), cylindre.GetVolume());
         }
     }
 }
