@@ -25,7 +25,7 @@ namespace Exercices_Progressifs.Business.CercleEtCylindre
 
         public double GetAire()
         {
-            return 2 * Math.PI * this.rayon;
+            return Math.PI * this.rayon * this.rayon;
         }
     }
 }
