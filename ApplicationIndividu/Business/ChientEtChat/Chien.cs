@@ -25,7 +25,7 @@ namespace Exercices_Progressifs.Business.ChientEtChat
 
         public static int CalculerÂgeHumain(int âge, int poinds)
         {
-            int âgeHumain = 0;
+            int âgeHumain;
 
             if(poinds < 15)
             {
